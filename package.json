@@ -1,0 +1,40 @@
+{
+  "name": "xerxes-react-switch",
+  "version": "0.0.1",
+  "description": "react switch component",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --mode=development --hot --open",
+    "build": "cross-env NODE_ENV=production webpack --mode=production"
+  },
+  "keywords": [
+    "react",
+    "switch",
+    "simple"
+  ],
+  "author": "xcxerxes",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-rc.1",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-rc.1",
+    "@babel/preset-env": "^7.0.0-rc.1",
+    "@babel/preset-react": "^7.0.0-rc.1",
+    "@babel/preset-typescript": "^7.0.0-rc.1",
+    "babel-loader": "^8.0.0-beta.4",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.22.1",
+    "ts-loader": "^4.4.2",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
